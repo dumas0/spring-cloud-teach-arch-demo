@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.9.RELEASE</version>
+        <version>2.6.3</version>
         <relativePath/>
     </parent>
 
@@ -41,8 +41,14 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- spring -->
-        <spring-boot.version>2.3.9.RELEASE</spring-boot.version>
-        <spring-boot-admin.version>2.6.5</spring-boot-admin.version>
+        <spring-boot.version>2.6.3</spring-boot.version>
+        <spring-boot-admin.version>2.6.6</spring-boot-admin.version>
+        <!-- spring-cloud -->
+        <spring-cloud.version>2021.0.1</spring-cloud.version>
+        <!-- ali-spring-cloud-alibaba -->
+        <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
+        <!-- nacos -->
+        <nacos-client.latest-version>1.4.2</nacos-client.latest-version>
 
         <mybatis.version>2.2.2</mybatis.version>
 
@@ -65,6 +71,10 @@
         </dependency>
     </dependencies>
 
+    <!--
+        引入 Spring Boot、Spring Cloud、Spring Cloud Alibaba 三者 BOM 文件，进行依赖版本的管理，防止不兼容。
+        在 https://dwz.cn/mcLIfNKt 文章中，Spring Cloud Alibaba 开发团队推荐了三者的依赖关系
+     -->
     <dependencyManagement>
         <dependencies>
             <!--##########################################################-->
@@ -76,6 +86,34 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <!--Spring基础依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <!--##########################################################-->
+            <!--       SpringCloud                                        -->
+            <!--##########################################################-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.nacos</groupId>
+                <artifactId>nacos-client</artifactId>
+                <version>${nacos-client.latest-version}</version>
             </dependency>
             <!--##########################################################-->
             <!--       SpringBoot Admin                                   -->

@@ -11,10 +11,14 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
 /**
  * 备注：需要注意 springboot 和 nacos-config-spring-boot-starter 版本对应关系
+ *
  * @author dumas
  * @date 2022/04/28 4:18 PM
  */
@@ -22,11 +26,14 @@ import org.springframework.stereotype.Component;
 //@NacosPropertySource(dataId = "example", type = ConfigType.YAML)
 public class NacosConfigApplication {
     public static void main(String[] args) {
-        SpringApplication.run(NacosConfigApplication.class, args);
+        ConfigurableApplicationContext context = SpringApplication.run(NacosConfigApplication.class, args);
+        // 查看 Environment
+        Environment environment = context.getEnvironment();
+        System.out.println(environment);
     }
 
     @Component
-    public class OrderPropertiesCommandLineRunner implements CommandLineRunner{
+    public class OrderPropertiesCommandLineRunner implements CommandLineRunner {
         private final Logger logger = LoggerFactory.getLogger(getClass());
         @Autowired
         private OrderProperties orderProperties;

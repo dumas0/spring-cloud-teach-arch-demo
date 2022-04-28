@@ -1,0 +1,12 @@
+jasypt:
+  # Jasypt 配置项，对应 JasyptEncryptorConfigurationProperties 配置类
+  encryptor:
+    # 加密算法
+    alogrithm: PBEWithMD5AndDES
+    # 加密密钥
+    password: justdoit
+
+spring:
+  application:
+    name: nacos-config
+    # name: 加密名称（前后需要使用 ENC() 包裹）

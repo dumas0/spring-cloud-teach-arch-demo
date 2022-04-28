@@ -17,6 +17,7 @@ nacos:
       log-enable: true
     # 使用的 Nacos 配置集的 dataId
     data-id: example
+    # data-id: example-jasypt
     # 使用的 Nacos 配置集的配置格式，默认为 PROPERTIES
     type: YAML
     # 使用的 Nacos 配置分组，默认为 DEFAULT_GROUP
@@ -25,3 +26,18 @@ nacos:
     # namespace: xxxxxxxx
     # 是否自动刷新，默认为 false
     # auto-refresh: true
+    # ext-config:
+
+# 端点监控信息配置
+management:
+  endpoint:
+    # Health 端点配置项，对应 HealthProperties 配置类
+    health:
+      # 何时显示完整的健康信息。默认为 NEVER 都不展示。可选 WHEN_AUTHORIZED 当经过授权的用户；可选 ALWAYS 总是展示
+      show-details: ALWAYS
+  endpoints:
+    # Actuator HTTP 配置项，对应 WebEndpointProperties 配置类
+    web:
+      exposure:
+        # 需要开放的端点。默认值只打开 health 和 info 两个端点。通过设置 * ，可以开放所有端点
+        include: '*'

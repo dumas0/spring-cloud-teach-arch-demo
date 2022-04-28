@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: nacos-config
+
+server:
+  port: 8081
+
+# Nacos 配置中心，对应 NacosConfigProperties 配置类
+nacos:
+  config:
+    # Nacos 服务器地址
+    server-addr: 127.0.0.1:18848
+    bootstrap:
+      # 是否开启 Nacos 配置预加载功能，默认 false
+      enable: true
+      # 是否开启 Nacos 支持日志级别的加载时机，默认为 false
+      log-enable: true
+    # 使用的 Nacos 配置集的 dataId
+    data-id: example
+    # 使用的 Nacos 配置集的配置格式，默认为 PROPERTIES
+    type: YAML
+    # 使用的 Nacos 配置分组，默认为 DEFAULT_GROUP
+    group: DEFAULT_GROUP
+    # 使用的 Nacos 的命名空间，默认为 null
+    # namespace: xxxxxxxx
+    # 是否自动刷新，默认为 false
+    # auto-refresh: true

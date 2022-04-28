@@ -1,0 +1,12 @@
+test: dumas
+
+logging:
+  level:
+    com:
+      dumas:
+        scta:
+          alibaba:
+            nacos:
+              config:
+                controller:
+                  DemoController: INFO

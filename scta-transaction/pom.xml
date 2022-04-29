@@ -6,31 +6,21 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>scta-parent</artifactId>
+        <artifactId>spring-cloud-teach-arch-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>spring-cloud-teach-arch-demo</artifactId>
+    <artifactId>scta-transaction</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <description>
-        微服务
-          - Alibaba 微服务体系
-          - Netflix 微服务体系
-          - 微服务网关
-          - 微服务配置中心
-          - 微服务消息队列
-          - 微服务分布式事务
+        分布式事务
+        - SpringCloud Alibaba Seata
     </description>
 
     <modules>
-        <module>scta-alibaba</module>
-        <module>scta-netflix</module>
-        <module>scta-api-gateway</module>
-        <module>scta-config-center</module>
-        <module>scta-mq</module>
-        <module>scta-transaction</module>
+        <module>scta-transaction-seata</module>
     </modules>
 
 </project>

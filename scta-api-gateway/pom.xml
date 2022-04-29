@@ -6,19 +6,21 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>scta-parent</artifactId>
+        <artifactId>spring-cloud-teach-arch-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>spring-cloud-teach-arch-demo</artifactId>
+    <artifactId>scta-api-gateway</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <modules>
-        <module>scta-alibaba</module>
-        <module>scta-netflix</module>
-        <module>scta-api-gateway</module>
+        <module>scta-api-cloud-gateway</module>
+        <module>scta-api-netflix-zuul</module>
+        <module>scta-api-soul</module>
+        <module>scta-api-apisix</module>
+        <module>scta-api-kong</module>
     </modules>
 
 </project>

@@ -45,6 +45,7 @@
         <spring-boot-admin.version>2.6.6</spring-boot-admin.version>
         <!-- spring-cloud -->
         <spring-cloud.version>2021.0.1</spring-cloud.version>
+        <netflix-zuul.version>2.2.10.RELEASE</netflix-zuul.version>
         <!-- ali-spring-cloud-alibaba -->
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
         <!-- nacos -->
@@ -52,16 +53,17 @@
         <nacos-config.version>0.2.10</nacos-config.version>
         <!-- 文件加密 -->
         <jasypt.version>3.0.4</jasypt.version>
-
+        <!-- mybatis -->
         <mybatis.version>2.2.2</mybatis.version>
-
         <tk-mybatis.version>4.2.1</tk-mybatis.version>
         <pagehelper.version>1.4.1</pagehelper.version>
-
+        <!-- soul-client -->
+        <soul-client.version>2.3.0-RELEASE</soul-client.version>
+        <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
 
-        <lombok.version>1.18.22</lombok.version>
+        <lombok.version>1.18.24</lombok.version>
     </properties>
 
     <!--依赖管理-->
@@ -71,6 +73,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
         </dependency>
     </dependencies>
 
@@ -95,6 +102,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
                 <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <!--##########################################################-->
             <!--       SpringCloud                                        -->
@@ -106,6 +115,10 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!--##########################################################-->
+            <!--       SpringCloud Alibaba                                -->
+            <!--##########################################################-->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -113,6 +126,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Nacos相关依赖 -->
             <dependency>
                 <groupId>com.alibaba.nacos</groupId>
                 <artifactId>nacos-client</artifactId>
@@ -139,12 +153,9 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-            </dependency>
-
+            <!--##########################################################-->
+            <!--       MyBatis 相关依赖                                     -->
+            <!--##########################################################-->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -160,6 +171,22 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${pagehelper.version}</version>
+            </dependency>
+
+            <!--##########################################################-->
+            <!--       微服务网关                                           -->
+            <!--##########################################################-->
+            <!-- SpringCloud Netflix Zuul -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+                <version>${netflix-zuul.version}</version>
+            </dependency>
+            <!--  -->
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>soul-client-apache-dubbo</artifactId>
+                <version>${soul-client.version}</version>
             </dependency>
 
             <dependency>

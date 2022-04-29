@@ -18,29 +18,31 @@
         微服务
           - Alibaba 微服务体系
           - Netflix 微服务体系
-          - 微服务网关
+          - 微服务注册中心
           - 微服务配置中心
+          - 微服务网关
           - 微服务消息队列
           - 微服务分布式事务
-          - 微服务监控管理
           - 微服务持续交付
+          - 微服务服务调用
+          - 微服务监控管理
           - 微服务链路追踪
           - 微服务服务容错
-          - 微服务服务调用
     </description>
 
     <modules>
         <module>scta-alibaba</module>
         <module>scta-netflix</module>
-        <module>scta-api-gateway</module>
+        <module>scta-register-center</module>
         <module>scta-config-center</module>
+        <module>scta-api-gateway</module>
         <module>scta-mq</module>
         <module>scta-transaction</module>
+        <module>scta-service-tolerance</module>
+        <module>scta-service-call</module>
         <module>scta-monitor</module>
         <module>scta-deploy</module>
         <module>scta-trace</module>
-        <module>scta-service-tolerance</module>
-        <module>scta-service-call</module>
     </modules>
 
 </project>

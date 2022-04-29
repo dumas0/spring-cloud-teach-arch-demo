@@ -182,7 +182,7 @@
                 <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
                 <version>${netflix-zuul.version}</version>
             </dependency>
-            <!--  -->
+            <!-- soul-client -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>soul-client-apache-dubbo</artifactId>

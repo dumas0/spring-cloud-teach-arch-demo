@@ -11,24 +11,26 @@
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-api-gateway</artifactId>
+    <artifactId>scta-mq</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <description>
-        微服务 API 网关
-        - SpringCloud Gateway
-        - SpringCloud Netflix Zuul
-        - 国产微服务网关 Soul
-        - 国产微服务网关 APISIX
-        - 国产微服务网关 KONG
+        消息队列
+        - Spring Cloud Stream
+            - SpringCloud Alibaba RocketMQ
+            - SpringCloud RabbitMQ
+            - SpringCloud Kafka
+            - SpringCloud ActiveMQ
+        - Spring Cloud Bus
+            - SpringCloud Alibaba Bus RocketMQ
+            - SpringCloud Bus RabbitMQ
+            - SpringCloud Bus Kafka
+            - SpringCloud Bus Consul
     </description>
 
     <modules>
-        <module>scta-api-cloud-gateway</module>
-        <module>scta-api-netflix-zuul</module>
-        <module>scta-api-soul</module>
-        <module>scta-api-apisix</module>
-        <module>scta-api-kong</module>
+        <module>scta-mq-stream</module>
+        <module>scta-mq-bus</module>
     </modules>
 
 </project>

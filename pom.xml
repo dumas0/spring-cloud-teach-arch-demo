@@ -22,6 +22,7 @@
           - 微服务配置中心
           - 微服务消息队列
           - 微服务分布式事务
+          - 微服务监控管理
     </description>
 
     <modules>
@@ -31,6 +32,7 @@
         <module>scta-config-center</module>
         <module>scta-mq</module>
         <module>scta-transaction</module>
+        <module>scta-monitor</module>
     </modules>
 
 </project>

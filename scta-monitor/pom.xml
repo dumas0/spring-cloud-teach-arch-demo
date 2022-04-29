@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.dumas.scta</groupId>
+        <artifactId>spring-cloud-teach-arch-demo</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.dumas.scta</groupId>
+    <artifactId>scta-monitor</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <description>
+        监控管理
+        - SpringBoot 异常管理平台 Sentry
+        - SpringBoot 端点监控 Actuator
+        - SpringCloud 监控工具 Admin
+        - SpringBoot 监控平台 Prometheus + Grafana
+    </description>
+
+    <modules>
+        <module>scta-monitor-sentry</module>
+        <module>scta-monitor-actuator</module>
+        <module>scta-monitor-admin</module>
+        <module>scta-monitor-prometheus</module>
+    </modules>
+
+</project>

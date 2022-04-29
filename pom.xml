@@ -26,6 +26,7 @@
           - 微服务持续交付
           - 微服务链路追踪
           - 微服务服务容错
+          - 微服务服务调用
     </description>
 
     <modules>
@@ -39,6 +40,7 @@
         <module>scta-deploy</module>
         <module>scta-trace</module>
         <module>scta-service-tolerance</module>
+        <module>scta-service-call</module>
     </modules>
 
 </project>

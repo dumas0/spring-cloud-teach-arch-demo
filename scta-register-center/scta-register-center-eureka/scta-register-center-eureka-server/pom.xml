@@ -17,7 +17,7 @@
 
     <name>scta-register-center-eureka-server</name>
     <description>
-        SpringCloud Netflix Eureka 注册中心 - 服务端
+        SpringCloud Netflix Eureka 注册中心 - 服务端/服务提供者
     </description>
 
     <dependencies>
@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
 

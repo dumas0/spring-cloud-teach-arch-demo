@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server-standalone
+
+# 设置 Eureka-Client 配置项，对应 EurekaClientConfigBean 配置类
+ereka:
+  client:
+    # 不注册到 Eureka-Server，默认为 true
+    register-with-eureka: false
+    # 不从 Eureka-Server 获取注册表，默认为 true
+    fetch-registry: false

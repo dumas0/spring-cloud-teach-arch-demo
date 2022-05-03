@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: nacos-config-consumer
+  cloud:
+    nacos:
+      # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类
+      discovery:
+        # Nacos 服务器地址
+        server-addr: 127.0.0.1:8848
+
+server:
+  port: 28080
+
+# 端点健康度检查
+management:
+  endpoints:
+    web:
+      exposure:
+        # 需要开放的端点。默认值只打开 health 和 info 两个端点。通过设置 * ，可以开放所有端点
+        include: '*'
+  endpoint:
+    # Health 端点配置项，对应 HealthProperties 配置类
+    health:
+      # 是否开启。默认为 true 开启。
+      enabled: true
+      # 何时显示完整的健康信息。默认为 NEVER 都不展示。可选 WHEN_AUTHORIZED 当经过授权的用户；可选 ALWAYS 总是展示。
+      show-details: ALWAYS

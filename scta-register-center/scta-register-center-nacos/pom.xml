@@ -21,8 +21,8 @@
     </description>
 
     <modules>
-        <module>scta-register-center-nacos-provider</module>
         <module>scta-register-center-nacos-consumer</module>
+        <module>scta-register-center-nacos-provider</module>
     </modules>
 
 

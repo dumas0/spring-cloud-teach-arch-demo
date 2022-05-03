@@ -17,7 +17,7 @@
 
     <name>scta-register-center-nacos-consumer</name>
     <description>
-        SpringCloud Alibab Nacos Config 配置中心 - 服务消费者
+        SpringCloud Alibaba Nacos 注册中心 - 服务消费者
     </description>
 
     <dependencies>

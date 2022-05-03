@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.dubbo.provider.impl;
+package com.dumas.scta.service.call.dubbo.provider.service.impl;
 
 import com.dumas.scta.service.call.dubbo.api.api.UserService;
 import com.dumas.scta.service.call.dubbo.api.dto.UserAddDTO;

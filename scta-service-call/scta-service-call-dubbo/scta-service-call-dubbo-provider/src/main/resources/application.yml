@@ -12,7 +12,7 @@ spring:
 dubbo:
   scan:
     # 指定 Dubbo 服务实现类的扫描基准包
-    base-packages: com.dumas.scta.service.call.dubbo.provider.impl
+    base-packages: com.dumas.scta.service.call.dubbo.provider.service.impl
   # Dubbo 服务暴露的协议配置，对应 ProtocolConfig Map
   protocols:
     dubbo:

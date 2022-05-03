@@ -11,13 +11,13 @@
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-register-center-eureka-server-standalone</artifactId>
+    <artifactId>scta-register-center-eureka-server-cluster</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-register-center-eureka-server-standalone</name>
+    <name>scta-register-center-eureka-server-cluster</name>
     <description>
-        SpringCloud Netflix Eureka 注册中心 单体模式
+        SpringCloud Netflix Eureka 注册中心 集群模式
     </description>
 
     <dependencies>

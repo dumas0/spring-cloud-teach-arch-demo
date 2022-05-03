@@ -1,0 +1,39 @@
+# application-node01.yml 与 application-node02.yml 达成交叉注册保持高可用状态
+
+# host 配置如下：
+# 127.0.0.1 eureka-node01
+# 127.0.0.1 eureka-node02
+
+# application-node01.yml
+server:
+  port: 28761
+
+spring:
+  application:
+    name: eureka-server-cluster
+
+eureka:
+  instance:
+    hostname: eureka-node01
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-node02:28762/eureka/
+
+#application-node02.yml
+#server:
+#  port: 28762
+#
+#spring:
+#  application:
+#    name: eureka-server-cluster
+#
+#eureka:
+#  instance:
+#    hostname: eureka-node01
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://eureka-node01:28761/eureka/

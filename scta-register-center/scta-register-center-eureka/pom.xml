@@ -22,6 +22,7 @@
 
     <modules>
         <module>scta-register-center-eureka-server-standalone</module>
+        <module>scta-register-center-eureka-server-cluster</module>
         <module>scta-register-center-eureka-server</module>
         <module>scta-register-center-eureka-client</module>
     </modules>

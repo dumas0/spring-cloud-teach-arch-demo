@@ -6,18 +6,18 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>scta-nacos-config</artifactId>
+        <artifactId>scta-register-center-nacos</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-nacos-config-provider</artifactId>
+    <artifactId>scta-register-center-nacos-provider</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-nacos-config-provider</name>
+    <name>scta-register-center-nacos-provider</name>
     <description>
-        SpringCloud Alibab Nacos Config 配置中心 - 服务提供者
+        SpringCloud Alibab Nacos 注册中心 - 服务提供者
     </description>
 
     <dependencies>

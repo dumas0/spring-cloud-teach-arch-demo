@@ -1,6 +1,7 @@
 package com.dumas.scta.service.call.dubbo.api.dto;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 
@@ -10,6 +11,7 @@ import java.io.Serializable;
  * @date 2022/05/03 10:45 PM
  */
 @Data
+@Accessors(chain = true)
 public class UserDTO implements Serializable {
     /**
      * 用户编号

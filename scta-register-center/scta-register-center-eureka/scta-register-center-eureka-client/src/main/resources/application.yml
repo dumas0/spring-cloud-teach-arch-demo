@@ -10,3 +10,4 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
+      # defaultZone: http://eureka:eureka@127.0.0.1:8761/eureka/  安全认证模式

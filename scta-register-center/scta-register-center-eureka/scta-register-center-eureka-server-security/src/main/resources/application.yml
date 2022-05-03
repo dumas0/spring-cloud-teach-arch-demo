@@ -1,0 +1,18 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server-security
+  # 使用 Spring Security 创建默认认证账号
+  security:
+    user:
+      name: eureka
+      password: eureka
+
+eureka:
+  client:
+    # 不注册到 Eureka-Server，默认为 true
+    register-with-eureka: false
+    # 不从 Eureka-Server 获取注册表，默认为 true
+    fetch-registry: false

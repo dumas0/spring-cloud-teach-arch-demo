@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eureka-server-security
+    name: scta-register-center-eureka-server-security
   # 使用 Spring Security 创建默认认证账号
   security:
     user:

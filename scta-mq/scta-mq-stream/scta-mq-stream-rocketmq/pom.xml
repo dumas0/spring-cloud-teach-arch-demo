@@ -21,7 +21,7 @@
     </description>
 
     <modules>
-        <module>scta-mq-stream-rocketmq-provider</module>
+        <module>scta-mq-stream-rocketmq-producer</module>
         <module>scta-mq-stream-rocketmq-consumer</module>
     </modules>
 

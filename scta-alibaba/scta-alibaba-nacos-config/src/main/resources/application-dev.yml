@@ -1,6 +1,6 @@
 spring:
   application:
-    name: nacos-config
+    name: scta-alibaba-nacos-config
 
 server:
   port: 8081

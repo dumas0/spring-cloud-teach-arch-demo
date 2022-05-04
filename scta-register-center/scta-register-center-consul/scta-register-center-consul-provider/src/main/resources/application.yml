@@ -1,6 +1,6 @@
 spring:
   application:
-    name: consul-provider
+    name: scta-register-center-consul-provider
   cloud:
     # Spring Cloud Consul 通用配置项，对应 ConsulProperties 类
     consul:

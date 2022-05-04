@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eureka-server-standalone
+    name: scta-register-center-eureka-server-standalone
 
 # 设置 Eureka-Client 配置项，对应 EurekaClientConfigBean 配置类
 ereka:

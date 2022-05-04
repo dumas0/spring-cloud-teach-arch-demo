@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ribbon-consumer
+    name: scta-service-call-ribbon-consumer
   cloud:
     nacos:
       # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类

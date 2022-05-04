@@ -26,15 +26,15 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(String name) {
-        // <1> 获得服务 `consul-provider` 的一个实例
+        // <1> 获得服务 `scta-register-center-consul-provider` 的一个实例
         ServiceInstance instance;
         if (true) {
-            // 获取服务 `consul-provider` 对应的实例列表
-            List<ServiceInstance> instances = discoveryClient.getInstances("consul-provider");
+            // 获取服务 `scta-register-center-consul-provider` 对应的实例列表
+            List<ServiceInstance> instances = discoveryClient.getInstances("scta-register-center-consul-provider");
             // 选择第一个
             instance = instances.size() > 0 ? instances.get(0) : null;
         } else {
-            instance = loadBalancerClient.choose("consul-provider");
+            instance = loadBalancerClient.choose("scta-register-center-consul-provider");
         }
         // <2> 发起调用
         if (instance == null) {

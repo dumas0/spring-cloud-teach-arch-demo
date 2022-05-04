@@ -10,7 +10,7 @@ server:
 
 spring:
   application:
-    name: eureka-server-cluster
+    name: scta-register-center-eureka-server-cluster
 
 eureka:
   instance:
@@ -31,7 +31,7 @@ eureka:
 #
 #eureka:
 #  instance:
-#    hostname: eureka-node01
+#    hostname: eureka-node02
 #  client:
 #    register-with-eureka: true
 #    fetch-registry: true

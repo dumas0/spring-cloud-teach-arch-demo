@@ -1,6 +1,6 @@
 spring:
   application:
-    name: fegin-consumer
+    name: scta-service-call-fegin-consumer
   cloud:
     nacos:
       # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类

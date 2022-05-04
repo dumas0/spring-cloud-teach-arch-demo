@@ -19,15 +19,15 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(String name) {
-        // <1> 获得服务 `demo-provider` 的一个实例
+        // <1> 获得服务 `scta-register-center-eureka-server` 的一个实例
         ServiceInstance instance;
         if (true) {
-            // 获取服务 `demo-provider` 对应的实例列表
-            List<ServiceInstance> instances = discoveryClient.getInstances("eureka-server");
+            // 获取服务 `scta-register-center-eureka-server` 对应的实例列表
+            List<ServiceInstance> instances = discoveryClient.getInstances("scta-register-center-eureka-server");
             // 选择第一个
             instance = instances.size() > 0 ? instances.get(0) : null;
         } else {
-            instance = loadBalancerClient.choose("eureka-server");
+            instance = loadBalancerClient.choose("scta-register-center-eureka-server");
         }
         // <2> 发起调用
         if (instance == null) {

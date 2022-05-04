@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2022/05/04 11:04
  */
 @SpringBootApplication
-public class RocketmqProviderApplication {
+public class RocketmqProducerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RocketmqProviderApplication.class, args);
+        SpringApplication.run(RocketmqProducerApplication.class, args);
     }
 }

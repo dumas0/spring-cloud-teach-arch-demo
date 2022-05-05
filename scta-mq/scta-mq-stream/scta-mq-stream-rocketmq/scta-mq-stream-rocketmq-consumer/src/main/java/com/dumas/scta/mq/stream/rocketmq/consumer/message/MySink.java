@@ -1,5 +1,7 @@
 package com.dumas.scta.mq.stream.rocketmq.consumer.message;
 
+import org.springframework.cloud.stream.annotation.Input;
+
 /**
  * @author dumas
  * @desc TODO

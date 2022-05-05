@@ -1,6 +1,6 @@
 spring:
   application:
-    name: nacos-provider
+    name: scta-register-center-nacos-provider
   cloud:
     nacos:
       # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类

@@ -9,7 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @desc TODO
  * @date 2022/05/03 11:43
  */
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @SpringBootApplication
 public class NacosConsumerApplication {
     public static void main(String[] args) {

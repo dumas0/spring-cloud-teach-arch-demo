@@ -23,6 +23,7 @@
     <modules>
         <module>scta-mq-stream-rocketmq-producer</module>
         <module>scta-mq-stream-rocketmq-consumer</module>
+        <module>scta-mq-stream-rocketmq-consumer-retry</module>
     </modules>
 
 </project>

@@ -1,7 +1,7 @@
-package com.dumas.scta.mq.stream.rocketmq.consumer.handler.listener;
+package com.dumas.scta.mq.stream.rocketmq.consumer.error.handler.listener;
 
-import com.dumas.scta.mq.stream.rocketmq.consumer.handler.message.Demo01Message;
-import com.dumas.scta.mq.stream.rocketmq.consumer.handler.message.MySink;
+import com.dumas.scta.mq.stream.rocketmq.consumer.error.handler.message.Demo01Message;
+import com.dumas.scta.mq.stream.rocketmq.consumer.error.handler.message.MySink;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

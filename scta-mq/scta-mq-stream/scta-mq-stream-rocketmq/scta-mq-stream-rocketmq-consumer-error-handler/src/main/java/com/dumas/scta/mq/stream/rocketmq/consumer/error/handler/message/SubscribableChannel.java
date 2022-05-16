@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rocketmq.consumer.handler.message;
+package com.dumas.scta.mq.stream.rocketmq.consumer.error.handler.message;
 
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHandler;

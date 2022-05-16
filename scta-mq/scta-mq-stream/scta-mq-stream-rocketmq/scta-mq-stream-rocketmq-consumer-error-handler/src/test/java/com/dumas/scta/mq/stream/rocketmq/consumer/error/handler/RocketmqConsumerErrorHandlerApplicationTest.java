@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rocketmq.consumer.handler;
+package com.dumas.scta.mq.stream.rocketmq.consumer.error.handler;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,6 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @date 2022/05/16 3:04 PM
  */
 @SpringBootTest
-public class RocketmqConsumerRetryApplicationTest {
+public class RocketmqConsumerErrorHandlerApplicationTest {
 
 }

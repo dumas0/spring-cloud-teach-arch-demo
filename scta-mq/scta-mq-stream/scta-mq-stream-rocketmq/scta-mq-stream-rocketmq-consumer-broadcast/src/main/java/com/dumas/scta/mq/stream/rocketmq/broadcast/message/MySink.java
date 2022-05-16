@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rocketmq.consumer.handler.message;
+package com.dumas.scta.mq.stream.rocketmq.broadcast.message;
 
 import org.springframework.cloud.stream.annotation.Input;
 

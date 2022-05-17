@@ -8,6 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @date 2022/05/04 11:07
  */
 @SpringBootTest
-public class RocketmqConsumerBroadcastApplicationTest {
+public class RocketmqConsumerOrderlyApplicationTest {
 
 }

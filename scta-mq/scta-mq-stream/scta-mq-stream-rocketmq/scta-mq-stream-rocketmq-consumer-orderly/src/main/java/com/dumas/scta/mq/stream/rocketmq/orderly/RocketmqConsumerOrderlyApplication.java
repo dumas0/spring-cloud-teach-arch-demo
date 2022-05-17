@@ -12,8 +12,8 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
  */
 @EnableBinding(MySink.class)
 @SpringBootApplication
-public class RocketmqConsumerBroadcastApplication {
+public class RocketmqConsumerOrderlyApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RocketmqConsumerBroadcastApplication.class, args);
+        SpringApplication.run(RocketmqConsumerOrderlyApplication.class, args);
     }
 }

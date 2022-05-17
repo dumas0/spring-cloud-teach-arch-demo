@@ -26,6 +26,8 @@
         <module>scta-mq-stream-rocketmq-consumer-retry</module>
         <module>scta-mq-stream-rocketmq-consumer-error-handler</module>
         <module>scta-mq-stream-rocketmq-consumer-broadcast</module>
+        <module>scta-mq-stream-rocketmq-producer-orderly</module>
+        <module>scta-mq-stream-rocketmq-consumer-orderly</module>
     </modules>
 
 </project>

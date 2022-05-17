@@ -28,6 +28,8 @@
         <module>scta-mq-stream-rocketmq-consumer-broadcast</module>
         <module>scta-mq-stream-rocketmq-producer-orderly</module>
         <module>scta-mq-stream-rocketmq-consumer-orderly</module>
+        <module>scta-mq-stream-rocketmq-consumer-filter</module>
+        <module>scta-mq-stream-rocketmq-producer-filter</module>
     </modules>
 
 </project>

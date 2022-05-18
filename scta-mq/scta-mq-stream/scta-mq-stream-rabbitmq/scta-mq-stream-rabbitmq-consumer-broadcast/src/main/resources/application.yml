@@ -28,7 +28,7 @@ spring:
           # 内容格式。这里使用 JSON
           content-type: application/json
           # 消费者分组
-          group: demo01-consumer-group-DEMO-TOPIC-01
+          # group: demo01-consumer-group-DEMO-TOPIC-01
           # 设置使用的 Binder 名字
           binder: rabbit001
 

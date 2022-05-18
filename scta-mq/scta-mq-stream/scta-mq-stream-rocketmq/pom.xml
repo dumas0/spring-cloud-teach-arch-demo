@@ -30,6 +30,7 @@
         <module>scta-mq-stream-rocketmq-consumer-orderly</module>
         <module>scta-mq-stream-rocketmq-consumer-filter</module>
         <module>scta-mq-stream-rocketmq-producer-filter</module>
+        <module>scta-mq-stream-rocketmq-producer-transaction</module>
     </modules>
 
 </project>

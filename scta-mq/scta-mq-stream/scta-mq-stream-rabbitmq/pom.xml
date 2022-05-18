@@ -27,6 +27,7 @@
         <module>scta-mq-stream-rabbitmq-consumer-delay</module>
         <module>scta-mq-stream-rabbitmq-consumer-retry</module>
         <module>scta-mq-stream-rabbitmq-consumer-error-handler</module>
+        <module>scta-mq-stream-rabbitmq-consumer-broadcast</module>
     </modules>
 
 </project>

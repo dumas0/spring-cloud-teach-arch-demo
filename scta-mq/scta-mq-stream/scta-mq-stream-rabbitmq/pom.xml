@@ -36,6 +36,7 @@
         <module>scta-mq-stream-rabbitmq-consumer-ack</module>
         <module>scta-mq-stream-rabbitmq-producer-confirm</module>
         <module>scta-mq-stream-rabbitmq-producer-batch</module>
+        <module>scta-mq-stream-rabbitmq-consumer-batch</module>
     </modules>
 
 </project>

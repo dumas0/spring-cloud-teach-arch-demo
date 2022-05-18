@@ -1,7 +1,7 @@
-package com.dumas.scta.mq.stream.rabbitmq.producer.controller;
+package com.dumas.scta.mq.stream.rabbitmq.batch.controller;
 
-import com.dumas.scta.mq.stream.rabbitmq.producer.message.Demo01Message;
-import com.dumas.scta.mq.stream.rabbitmq.producer.message.MySource;
+import com.dumas.scta.mq.stream.rabbitmq.batch.message.Demo01Message;
+import com.dumas.scta.mq.stream.rabbitmq.batch.message.MySource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

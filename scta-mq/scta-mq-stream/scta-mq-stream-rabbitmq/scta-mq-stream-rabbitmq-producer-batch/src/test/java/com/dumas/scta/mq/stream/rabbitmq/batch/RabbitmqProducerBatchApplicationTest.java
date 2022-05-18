@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rabbitmq.producer;
+package com.dumas.scta.mq.stream.rabbitmq.batch;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,6 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @date 2022/05/18 3:18 PM
  */
 @SpringBootTest
-public class RabbitmqProducerApplicationTest {
+public class RabbitmqProducerBatchApplicationTest {
 
 }

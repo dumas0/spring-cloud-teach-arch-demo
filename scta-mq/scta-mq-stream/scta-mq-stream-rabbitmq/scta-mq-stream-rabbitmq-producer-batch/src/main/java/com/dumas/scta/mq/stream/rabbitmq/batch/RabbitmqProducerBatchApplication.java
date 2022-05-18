@@ -1,6 +1,6 @@
-package com.dumas.scta.mq.stream.rabbitmq.producer;
+package com.dumas.scta.mq.stream.rabbitmq.batch;
 
-import com.dumas.scta.mq.stream.rabbitmq.producer.message.MySource;
+import com.dumas.scta.mq.stream.rabbitmq.batch.message.MySource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;
@@ -11,8 +11,8 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
  */
 @EnableBinding(MySource.class)
 @SpringBootApplication
-public class RabbitmqProducerApplication {
+public class RabbitmqProducerBatchApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RabbitmqProducerApplication.class, args);
+        SpringApplication.run(RabbitmqProducerBatchApplication.class, args);
     }
 }

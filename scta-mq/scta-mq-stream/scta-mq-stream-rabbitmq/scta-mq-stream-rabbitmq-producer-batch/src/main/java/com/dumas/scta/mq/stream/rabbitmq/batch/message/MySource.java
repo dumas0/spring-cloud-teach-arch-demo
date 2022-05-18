@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rabbitmq.producer.message;
+package com.dumas.scta.mq.stream.rabbitmq.batch.message;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;

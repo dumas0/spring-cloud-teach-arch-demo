@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rabbitmq.producer.message;
+package com.dumas.scta.mq.stream.rabbitmq.batch.message;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

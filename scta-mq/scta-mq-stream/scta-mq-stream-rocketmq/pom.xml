@@ -31,6 +31,8 @@
         <module>scta-mq-stream-rocketmq-consumer-filter</module>
         <module>scta-mq-stream-rocketmq-producer-filter</module>
         <module>scta-mq-stream-rocketmq-producer-transaction</module>
+        <module>scta-mq-stream-rocketmq-consumer-actuator</module>
+        <module>scta-mq-stream-rocketmq-producer-actuator</module>
     </modules>
 
 </project>

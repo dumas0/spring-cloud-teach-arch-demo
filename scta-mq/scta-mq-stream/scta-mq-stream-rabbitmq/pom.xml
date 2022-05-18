@@ -28,6 +28,10 @@
         <module>scta-mq-stream-rabbitmq-consumer-retry</module>
         <module>scta-mq-stream-rabbitmq-consumer-error-handler</module>
         <module>scta-mq-stream-rabbitmq-consumer-broadcast</module>
+        <module>scta-mq-stream-rabbitmq-consumer-concurrency</module>
+        <module>scta-mq-stream-rabbitmq-producer-partition</module>
+        <module>scta-mq-stream-rabbitmq-consumer-partition</module>
+        <module>scta-mq-stream-rabbitmq-consumer-filter</module>
     </modules>
 
 </project>

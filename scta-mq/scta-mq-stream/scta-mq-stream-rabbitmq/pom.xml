@@ -32,6 +32,7 @@
         <module>scta-mq-stream-rabbitmq-producer-partition</module>
         <module>scta-mq-stream-rabbitmq-consumer-partition</module>
         <module>scta-mq-stream-rabbitmq-consumer-filter</module>
+        <module>scta-mq-stream-rabbitmq-producer-transaction</module>
     </modules>
 
 </project>

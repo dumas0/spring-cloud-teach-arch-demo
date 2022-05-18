@@ -37,6 +37,8 @@
         <module>scta-mq-stream-rabbitmq-producer-confirm</module>
         <module>scta-mq-stream-rabbitmq-producer-batch</module>
         <module>scta-mq-stream-rabbitmq-consumer-batch</module>
+        <module>scta-mq-stream-rabbitmq-producer-actuator</module>
+        <module>scta-mq-stream-rabbitmq-consumer-actuator</module>
     </modules>
 
 </project>

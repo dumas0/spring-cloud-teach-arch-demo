@@ -33,6 +33,8 @@
         <module>scta-mq-stream-rocketmq-producer-transaction</module>
         <module>scta-mq-stream-rocketmq-consumer-actuator</module>
         <module>scta-mq-stream-rocketmq-producer-actuator</module>
+        <module>scta-mq-stream-rocketmq-producer-aliyun</module>
+        <module>scta-mq-stream-rocketmq-consumer-aliyun</module>
     </modules>
 
 </project>

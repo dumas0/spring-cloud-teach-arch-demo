@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rocketmq.transaction.message;
+package com.dumas.scta.mq.stream.rocketmq.producer.transaction.message;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;

@@ -1,6 +1,6 @@
-package com.dumas.scta.mq.stream.rocketmq.transaction;
+package com.dumas.scta.mq.stream.rocketmq.producer.transaction;
 
-import com.dumas.scta.mq.stream.rocketmq.transaction.message.MySource;
+import com.dumas.scta.mq.stream.rocketmq.producer.transaction.message.MySource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;

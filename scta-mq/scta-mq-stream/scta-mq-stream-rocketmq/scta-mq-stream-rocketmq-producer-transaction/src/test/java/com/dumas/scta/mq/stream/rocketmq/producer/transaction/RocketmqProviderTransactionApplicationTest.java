@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rocketmq.transaction;
+package com.dumas.scta.mq.stream.rocketmq.producer.transaction;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.rocketmq.transaction.message;
+package com.dumas.scta.mq.stream.rocketmq.producer.transaction.message;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

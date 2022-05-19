@@ -26,5 +26,6 @@
         <module>scta-mq-stream-kafka-consumer-retry</module>
         <module>scta-mq-stream-kafka-consumer-error-handler</module>
         <module>scta-mq-stream-kafka-consumer-broadcast</module>
+        <module>scta-mq-stream-kafka-consumer-concurrency</module>
     </modules>
 </project>

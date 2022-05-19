@@ -12,7 +12,7 @@
 
     <groupId>com.dumas.scta</groupId>
     <artifactId>scta-mq-bus-consul</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>scta-mq-bus-consul</name>
@@ -20,20 +20,10 @@
         事件总线 Bus Consul
     </description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <modules>
+        <module>scta-mq-bus-consul-publisher</module>
+        <module>scta-mq-bus-consul-listener</module>
+        <module>scta-mq-bus-consul-listener-actuator</module>
+    </modules>
 
 </project>

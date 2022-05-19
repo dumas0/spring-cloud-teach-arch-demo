@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: scta-mq-bus-consul-listener
+  cloud:
+    # Consul
+    consul:
+      host: 127.0.0.1
+      port: 8500
+    # Bus 相关配置项，对应 BusProperties
+    bus:
+      # 是否开启，默认为 true
+      enabled: true
+      # 目标消息队列，默认为 springCloudBus
+      destination: springCloudBus

@@ -12,7 +12,7 @@
 
     <groupId>com.dumas.scta</groupId>
     <artifactId>scta-mq-stream-kafka</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>scta-mq-stream-kafka</name>
@@ -20,20 +20,8 @@
         消息队列 Kafka
     </description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
+    <modules>
+        <module>scta-mq-stream-kafka-producer</module>
+        <module>scta-mq-stream-kafka-consumer</module>
+    </modules>
 </project>

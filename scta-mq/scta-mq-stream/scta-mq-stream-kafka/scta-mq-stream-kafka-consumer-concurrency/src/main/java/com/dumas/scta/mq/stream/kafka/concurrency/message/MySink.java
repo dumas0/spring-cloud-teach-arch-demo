@@ -1,4 +1,4 @@
-package com.dumas.scta.mq.stream.kafka.consumer.message;
+package com.dumas.scta.mq.stream.kafka.concurrency.message;
 
 import org.springframework.cloud.stream.annotation.Input;
 

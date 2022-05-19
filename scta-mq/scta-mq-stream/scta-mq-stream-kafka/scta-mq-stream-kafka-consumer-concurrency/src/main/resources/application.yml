@@ -1,6 +1,6 @@
 spring:
   application:
-    name: scta-mq-stream-kafka-consumer
+    name: scta-mq-stream-kafka-consumer-concurrency
   cloud:
     # Spring Cloud Stream 配置项，对应 BindingServiceProperties 类
     stream:

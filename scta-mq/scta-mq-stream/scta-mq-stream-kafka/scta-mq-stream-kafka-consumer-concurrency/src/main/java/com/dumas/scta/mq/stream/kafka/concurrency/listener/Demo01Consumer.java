@@ -1,7 +1,7 @@
-package com.dumas.scta.mq.stream.kafka.consumer.listener;
+package com.dumas.scta.mq.stream.kafka.concurrency.listener;
 
-import com.dumas.scta.mq.stream.kafka.consumer.message.Demo01Message;
-import com.dumas.scta.mq.stream.kafka.consumer.message.MySink;
+import com.dumas.scta.mq.stream.kafka.concurrency.message.Demo01Message;
+import com.dumas.scta.mq.stream.kafka.concurrency.message.MySink;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.stream.annotation.StreamListener;

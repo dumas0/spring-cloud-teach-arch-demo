@@ -1,6 +1,6 @@
-package com.dumas.scta.mq.stream.kafka.consumer;
+package com.dumas.scta.mq.stream.kafka.concurrency;
 
-import com.dumas.scta.mq.stream.kafka.consumer.message.MySink;
+import com.dumas.scta.mq.stream.kafka.concurrency.message.MySink;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;
@@ -11,8 +11,8 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
  */
 @EnableBinding(MySink.class)
 @SpringBootApplication
-public class KafkaConsumerApplication {
+public class KafkaConsumerConcurrencyApplication {
     public static void main(String[] args) {
-        SpringApplication.run(KafkaConsumerApplication.class, args);
+        SpringApplication.run(KafkaConsumerConcurrencyApplication.class, args);
     }
 }

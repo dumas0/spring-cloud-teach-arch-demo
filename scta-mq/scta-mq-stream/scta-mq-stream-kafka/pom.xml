@@ -31,5 +31,6 @@
         <module>scta-mq-stream-kafka-consumer-filter</module>
         <module>scta-mq-stream-kafka-producer-transaction</module>
         <module>scta-mq-stream-kafka-consumer-transaction</module>
+        <module>scta-mq-stream-kafka-consumer-ack</module>
     </modules>
 </project>

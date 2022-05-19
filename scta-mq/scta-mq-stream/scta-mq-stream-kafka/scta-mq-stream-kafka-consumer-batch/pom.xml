@@ -11,13 +11,13 @@
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-mq-stream-kafka-producer-batch</artifactId>
+    <artifactId>scta-mq-stream-kafka-consumer-batch</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-mq-stream-kafka-producer-batch</name>
+    <name>scta-mq-stream-kafka-consumer-batch</name>
     <description>
-        消息队列 Kafka 消息生产者 批量生产消息
+        消息队列 Kafka 消息消费者 批量消费消息
     </description>
 
     <dependencies>

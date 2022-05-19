@@ -34,5 +34,7 @@
         <module>scta-mq-stream-kafka-consumer-ack</module>
         <module>scta-mq-stream-kafka-producer-batch</module>
         <module>scta-mq-stream-kafka-consumer-batch</module>
+        <module>scta-mq-stream-kafka-producer-actuator</module>
+        <module>scta-mq-stream-kafka-consumer-actuator</module>
     </modules>
 </project>

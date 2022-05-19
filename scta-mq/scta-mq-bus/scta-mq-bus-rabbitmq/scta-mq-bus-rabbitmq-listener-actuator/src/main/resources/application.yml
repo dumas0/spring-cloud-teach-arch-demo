@@ -1,6 +1,6 @@
 spring:
   application:
-    name: scta-mq-bus-rabbitmq-listener
+    name: scta-mq-bus-rabbitmq-listener-actuator
   # RabbitMQ 相关配置项
   rabbitmq:
     host: localhost

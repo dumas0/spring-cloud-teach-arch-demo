@@ -27,4 +27,20 @@ public class Demo01Controller {
         Message<Demo01Message> springMessage = MessageBuilder.withPayload(message).build();
         return mySource.demo01Output().send(springMessage);
     }
+
+    @GetMapping("/send_tag")
+    public boolean sendTag() {
+        for (String tag : new String[]{"dumas", "du", "dum"}) {
+            // 创建 Message
+            Demo01Message message = new Demo01Message()
+                    .setId(new Random().nextInt());
+            // 创建 Spring Message 对象
+            Message<Demo01Message> springMessage = MessageBuilder.withPayload(message)
+                    .setHeader("tag", tag)
+                    .build();
+            // 发送消息
+            mySource.demo01Output().send(springMessage);
+        }
+        return true;
+    }
 }

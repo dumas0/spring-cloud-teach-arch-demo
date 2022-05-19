@@ -28,5 +28,6 @@
         <module>scta-mq-stream-kafka-consumer-broadcast</module>
         <module>scta-mq-stream-kafka-consumer-concurrency</module>
         <module>scta-mq-stream-kafka-producer-partition</module>
+        <module>scta-mq-stream-kafka-consumer-filter</module>
     </modules>
 </project>

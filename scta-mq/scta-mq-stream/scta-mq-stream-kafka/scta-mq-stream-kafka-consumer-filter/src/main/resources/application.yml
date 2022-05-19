@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: scta-mq-stream-kafka-consumer-filter
+  cloud:
+    # Spring Cloud Stream 配置项，对应 BindingServiceProperties 类
+    stream:
+      # Binder 配置项，对应 BinderProperties Map
+      # binders:
+      # Binding 配置项，对应 BindingProperties Map
+      bindings:
+        demo01-input:
+          # 目的地。这里使用 Kafka Topic
+          destination: DEMO-TOPIC-01
+          # 内容格式。这里使用 JSON
+          content-type: application/json
+          # 消费者分组
+          group: demo01-consumer-group
+      # Spring Cloud Stream Kafka 配置项
+      kafka:
+        # Kafka Binder 配置项，对应 KafkaBinderConfigurationProperties 类
+        binder:
+          # 指定 Kafka Broker 地址，可以设置多个，以逗号分隔
+          brokers: 127.0.0.1:9092
+
+server:
+  port: ${random.int[10000,19999]}

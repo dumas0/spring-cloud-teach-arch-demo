@@ -23,5 +23,6 @@
     <modules>
         <module>scta-mq-bus-rocketmq-publisher</module>
         <module>scta-mq-bus-rocketmq-listener</module>
+        <module>scta-mq-bus-rocketmq-listener-actuator</module>
     </modules>
 </project>

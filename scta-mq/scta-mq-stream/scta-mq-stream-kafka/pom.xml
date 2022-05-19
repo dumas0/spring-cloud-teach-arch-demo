@@ -24,5 +24,6 @@
         <module>scta-mq-stream-kafka-producer</module>
         <module>scta-mq-stream-kafka-consumer</module>
         <module>scta-mq-stream-kafka-consumer-retry</module>
+        <module>scta-mq-stream-kafka-consumer-error-handler</module>
     </modules>
 </project>

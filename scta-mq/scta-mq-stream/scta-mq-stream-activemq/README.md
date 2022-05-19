@@ -1,1 +1,3 @@
 # SpringCloud 消息队列 ActiveMQ
+
+不过 ActiveMQ 对应的实现库 spring-cloud-stream-binder-jms 处于停止更新的状态...

@@ -32,5 +32,6 @@
         <module>scta-mq-stream-kafka-producer-transaction</module>
         <module>scta-mq-stream-kafka-consumer-transaction</module>
         <module>scta-mq-stream-kafka-consumer-ack</module>
+        <module>scta-mq-stream-kafka-producer-batch</module>
     </modules>
 </project>

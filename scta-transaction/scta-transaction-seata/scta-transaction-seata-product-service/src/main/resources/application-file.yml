@@ -1,8 +1,8 @@
 server:
-  port: 8083
+  port: 8082
 spring:
   application:
-    name: scta-transaction-seata-account-service
+    name: scta-transaction-product-service
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/seata_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
@@ -19,19 +19,11 @@ seata:
   application-id: ${spring.application.name}
   # Seata 事务组编号，用于 TC 集群名
   tx-service-group: ${spring.application.name}-group
-  # Seata 服务配置项，对应 ServiceProperties 类
+  # 服务配置项，对应 ServiceProperties 类
   service:
     # 虚拟组和分组的映射
     vgroup-mapping:
       order-service-group: default
-  # Seata 注册中心配置项，对应 RegistryProperties 类
-  registry:
-    # 注册中心类型，默认为 file
-    type: nacos
-    nacos:
-      # 使用的 Seata 分组
-      cluster: default
-      # Nacos 命名空间
-      # namespace:
-      # Nacos 服务地址
-      serverAddr: localhost
+    # 分组和 Seata 服务的映射
+    group-list:
+      default: 127.0.0.1:8091

@@ -61,6 +61,11 @@
         <pagehelper.version>1.4.1</pagehelper.version>
         <!-- soul-client -->
         <soul-client.version>2.3.0-RELEASE</soul-client.version>
+        <!-- 分布式事务 seata -->
+        <alibaba-seata.version>2.2.0.RELEASE</alibaba-seata.version>
+        <io.seata.version>1.5.0</io.seata.version>
+        <!-- alibaba-druid -->
+        <alibaba-druid.version>1.2.9</alibaba-druid.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -194,6 +199,23 @@
                 <groupId>org.dromara</groupId>
                 <artifactId>soul-client-apache-dubbo</artifactId>
                 <version>${soul-client.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-seata</artifactId>
+                <version>${alibaba-seata.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.seata</groupId>
+                <artifactId>seata-spring-boot-starter</artifactId>
+                <version>${io.seata.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${alibaba-druid.version}</version>
             </dependency>
 
             <dependency>

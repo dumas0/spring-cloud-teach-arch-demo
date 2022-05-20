@@ -12,7 +12,7 @@
 
     <groupId>com.dumas.scta</groupId>
     <artifactId>scta-transaction-seata</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>scta-transaction-seata</name>
@@ -20,20 +20,10 @@
         SpringCloud Alibaba Seata
     </description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <modules>
+        <module>scta-transaction-seata-order-service</module>
+        <module>scta-transaction-seata-product-service</module>
+        <module>scta-transaction-seata-account-service</module>
+    </modules>
 
 </project>

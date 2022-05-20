@@ -1,0 +1,37 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/seata_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+# Seata 配置项，对应 SeataProperties 类
+seata:
+  # Seata 应用编号，默认为 ${spring.application.name}
+  application-id: ${spring.application.name}
+  # Seata 事务组编号，用于 TC 集群名
+  tx-service-group: ${spring.application.name}-group
+  # Seata 服务配置项，对应 ServiceProperties 类
+  service:
+    # 虚拟组和分组的映射
+    vgroup-mapping:
+      order-service-group: default
+  # Seata 注册中心配置项，对应 RegistryProperties 类
+  registry:
+    # 注册中心类型，默认为 file
+    type: nacos
+    nacos:
+      # 使用的 Seata 分组
+      cluster: default
+      # Nacos 命名空间
+      # namespace:
+      # Nacos 服务地址
+      serverAddr: localhost

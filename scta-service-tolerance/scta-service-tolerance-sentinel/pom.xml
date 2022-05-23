@@ -27,5 +27,6 @@
         <module>scta-service-tolerance-sentinel-file-provider</module>
         <module>scta-service-tolerance-sentinel-feign-consumer</module>
         <module>scta-service-tolerance-sentinel-resttemplate-consumer</module>
+        <module>scta-service-tolerance-sentinel-provider-actuator</module>
     </modules>
 </project>

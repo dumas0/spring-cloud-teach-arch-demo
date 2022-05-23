@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2022/05/20 3:20 PM
  */
 @SpringBootApplication
-public class SentinelProviderApplication {
+public class SentinelProviderActuatorApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SentinelProviderApplication.class, args);
+        SpringApplication.run(SentinelProviderActuatorApplication.class, args);
     }
 }

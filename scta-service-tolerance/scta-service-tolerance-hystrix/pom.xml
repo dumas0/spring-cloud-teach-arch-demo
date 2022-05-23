@@ -12,7 +12,7 @@
 
     <groupId>com.dumas.scta</groupId>
     <artifactId>scta-service-tolerance-hystrix</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>scta-service-tolerance-hystrix</name>
@@ -20,20 +20,7 @@
         SpringCloud Netflix Hystrix 服务容错
     </description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
+    <modules>
+        <module>scta-service-tolerance-hystrix-user-service</module>
+    </modules>
 </project>

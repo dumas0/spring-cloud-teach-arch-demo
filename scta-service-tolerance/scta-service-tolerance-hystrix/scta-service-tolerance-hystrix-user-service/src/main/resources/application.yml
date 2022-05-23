@@ -1,0 +1,6 @@
+server:
+  port: 18080
+
+spring:
+  application:
+    name: scta-service-tolerance-hystrix-user-service

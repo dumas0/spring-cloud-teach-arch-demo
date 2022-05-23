@@ -1,4 +1,4 @@
-package com.dumas.scta.service.tolerance.sentinel.provider.actuator.exp;
+package com.dumas.scta.service.tolerance.sentinel.resttemplate.consumer.exp;
 
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.fastjson.JSONObject;

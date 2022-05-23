@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @date 2022/05/20 3:26 PM
  */
 @Component
-@ControllerAdvice(basePackages = "com.dumas.scta.service.tolerance.sentinel.feign.consumer")
+@ControllerAdvice(basePackages = "com.dumas.scta.service.tolerance.sentinel.provider")
 public class GlobalExceptionHandler {
 
     @ResponseBody

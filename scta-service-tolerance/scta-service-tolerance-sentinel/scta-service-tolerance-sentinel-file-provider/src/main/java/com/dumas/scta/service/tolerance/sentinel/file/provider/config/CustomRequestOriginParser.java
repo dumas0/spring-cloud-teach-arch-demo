@@ -1,4 +1,4 @@
-package com.dumas.scta.service.tolerance.sentinel.nacos.provider.actuator.config;
+package com.dumas.scta.service.tolerance.sentinel.file.provider.config;
 
 import com.alibaba.cloud.commons.lang.StringUtils;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.RequestOriginParser;

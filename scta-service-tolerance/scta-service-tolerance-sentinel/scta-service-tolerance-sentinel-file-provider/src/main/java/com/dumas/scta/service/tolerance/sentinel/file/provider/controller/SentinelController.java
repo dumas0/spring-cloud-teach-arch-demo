@@ -1,4 +1,4 @@
-package com.dumas.scta.service.tolerance.sentinel.nacos.provider.actuator.controller;
+package com.dumas.scta.service.tolerance.sentinel.file.provider.controller;
 
 import com.alibaba.csp.sentinel.Entry;
 import com.alibaba.csp.sentinel.SphU;

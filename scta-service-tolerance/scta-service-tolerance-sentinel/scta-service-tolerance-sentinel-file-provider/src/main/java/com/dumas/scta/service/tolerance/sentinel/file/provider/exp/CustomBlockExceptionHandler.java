@@ -1,4 +1,4 @@
-package com.dumas.scta.service.tolerance.sentinel.nacos.provider.actuator.exp;
+package com.dumas.scta.service.tolerance.sentinel.file.provider.exp;
 
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;

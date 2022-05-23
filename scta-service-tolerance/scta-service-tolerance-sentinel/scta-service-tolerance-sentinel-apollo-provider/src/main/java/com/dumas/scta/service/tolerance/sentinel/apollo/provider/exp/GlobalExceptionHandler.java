@@ -1,4 +1,4 @@
-package com.dumas.scta.service.tolerance.sentinel.nacos.provider.actuator.exp;
+package com.dumas.scta.service.tolerance.sentinel.apollo.provider.exp;
 
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.fastjson.JSONObject;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @date 2022/05/20 3:26 PM
  */
 @Component
-@ControllerAdvice(basePackages = "com.dumas.scta.service.tolerance.sentinel.feign.consumer")
+@ControllerAdvice(basePackages = "com.dumas.scta.service.tolerance.sentinel.provider")
 public class GlobalExceptionHandler {
 
     @ResponseBody

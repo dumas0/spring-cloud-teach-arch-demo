@@ -22,5 +22,9 @@
 
     <modules>
         <module>scta-service-tolerance-sentinel-provider</module>
+        <module>scta-service-tolerance-sentinel-nacos-provider</module>
+        <module>scta-service-tolerance-sentinel-apollo-provider</module>
+        <module>scta-service-tolerance-sentinel-file-provider</module>
+        <module>scta-service-tolerance-sentinel-feign-consumer</module>
     </modules>
 </project>

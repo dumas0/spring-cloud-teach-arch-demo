@@ -1,4 +1,4 @@
-package com.dumas.scta.service.tolerance.hystrix.consumer.controller;
+package com.dumas.scta.service.tolerance.hystrix.consumer.actuator.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.commons.lang.exception.ExceptionUtils;

@@ -25,5 +25,6 @@
         <module>scta-service-tolerance-hystrix-consumer</module>
         <module>scta-service-tolerance-hystrix-consumer-cache</module>
         <module>scta-service-tolerance-hystrix-consumer-merge</module>
+        <module>scta-service-tolerance-hystrix-consumer-actuator</module>
     </modules>
 </project>

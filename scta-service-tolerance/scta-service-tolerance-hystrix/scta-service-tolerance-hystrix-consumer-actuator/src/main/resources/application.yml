@@ -1,0 +1,13 @@
+server:
+  port: 18081
+
+spring:
+  application:
+    name: scta-service-tolerance-hystrix-consumer-actuator
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # 需要开放的端点。默认值只打开 health 和 info 两个端点。通过设置 * ，可以开放所有端点。
+        include: 'hystrix.stream'

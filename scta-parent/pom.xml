@@ -70,6 +70,8 @@
         <sentinel-datasource-nacos.version>1.8.4</sentinel-datasource-nacos.version>
         <!-- sentinel-datasource-apollo -->
         <sentinel-datasource-apollo.version>1.8.4</sentinel-datasource-apollo.version>
+        <!-- netflix-hystrix -->
+        <netflix-hystrix.version>2.2.10.RELEASE</netflix-hystrix.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -233,6 +235,11 @@
                 <version>${sentinel-datasource-apollo.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+                <version>${netflix-hystrix.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>

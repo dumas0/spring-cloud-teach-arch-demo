@@ -22,5 +22,7 @@
 
     <modules>
         <module>scta-service-tolerance-hystrix-user-service</module>
+        <module>scta-service-tolerance-hystrix-consumer</module>
+        <module>scta-service-tolerance-hystrix-consumer-cache</module>
     </modules>
 </project>

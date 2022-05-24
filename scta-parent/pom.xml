@@ -74,6 +74,7 @@
         <netflix-hystrix.version>2.2.10.RELEASE</netflix-hystrix.version>
         <netflix-hystrix-dashboard.version>2.2.10.RELEASE</netflix-hystrix-dashboard.version>
         <netflix-turbine.version>2.2.10.RELEASE</netflix-turbine.version>
+        <circuitbreaker-resilience4j.version>2.1.2</circuitbreaker-resilience4j.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -251,6 +252,12 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
                 <version>${netflix-turbine.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+                <version>${circuitbreaker-resilience4j.version}</version>
             </dependency>
 
             <dependency>

@@ -1,0 +1,11 @@
+server:
+  port: 18083
+
+spring:
+  application:
+    name: scta-service-tolerance-hystrix-feign
+
+feign:
+  hystrix:
+    # 开启 Hystrix 对 Feign 的支持，默认为 false 关闭
+    enabled: true

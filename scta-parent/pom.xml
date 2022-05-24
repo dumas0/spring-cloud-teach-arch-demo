@@ -73,6 +73,7 @@
         <!-- netflix-hystrix -->
         <netflix-hystrix.version>2.2.10.RELEASE</netflix-hystrix.version>
         <netflix-hystrix-dashboard.version>2.2.10.RELEASE</netflix-hystrix-dashboard.version>
+        <netflix-turbine.version>2.2.10.RELEASE</netflix-turbine.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -246,7 +247,11 @@
                 <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
                 <version>${netflix-hystrix-dashboard.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
+                <version>${netflix-turbine.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>

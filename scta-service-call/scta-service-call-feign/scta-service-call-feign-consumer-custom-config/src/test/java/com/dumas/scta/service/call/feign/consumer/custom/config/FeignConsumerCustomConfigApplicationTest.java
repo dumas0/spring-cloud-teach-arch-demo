@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.feign.consumer.config;
+package com.dumas.scta.service.call.feign.consumer.custom.config;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.feign.consumer.config.feign;
+package com.dumas.scta.service.call.feign.consumer.custom.config.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

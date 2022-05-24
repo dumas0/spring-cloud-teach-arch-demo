@@ -30,5 +30,6 @@
         <module>scta-service-tolerance-hystrix-consumer-cluster</module>
         <module>scta-service-tolerance-hystrix-dashboard-turbine</module>
         <module>scta-service-tolerance-hystrix-feign</module>
+        <module>scta-service-tolerance-hystrix-dubbo</module>
     </modules>
 </project>

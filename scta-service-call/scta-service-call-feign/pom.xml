@@ -28,6 +28,7 @@
         <module>scta-service-call-feign-consumer-external</module>
         <module>scta-service-call-feign-consumer-apache-httpclient</module>
         <module>scta-service-call-feign-consumer-okhttp</module>
+        <module>scta-service-call-feign-consumer-retry</module>
     </modules>
 
 </project>

@@ -1,6 +1,6 @@
-package com.dumas.scta.service.call.feign.consumer.apache.httpclient.controller;
+package com.dumas.scta.service.call.feign.consumer.retry.controller;
 
-import com.dumas.scta.service.call.feign.consumer.apache.httpclient.feign.ProviderFeignClient;
+import com.dumas.scta.service.call.feign.consumer.retry.feign.ProviderFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

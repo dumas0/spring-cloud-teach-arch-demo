@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: scta-service-call-feign-consumer-retry
+  cloud:
+    nacos:
+      # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+ribbon:
+  # 请求的连接超时时间，单位：毫秒。默认为 1000
+  ConnectTimeout: 1000
+  # 请求的读取超时时间，单位：毫秒。默认为 1000
+  ReadTimeout: 1
+  # 是否对所有操作都进行重试，默认为 false。
+  OkToRetryOnAllOperations: true
+  # 对当前服务的重试次数，默认为 0 次。
+  MaxAutoRetries: 0
+  # 重新选择服务实例的次数，默认为 1 次。注意，不包含第 1 次哈。
+  MaxAutoRetriesNextServer: 1
+
+
+server:
+  port: 28080

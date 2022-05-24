@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.feign.consumer.apache.httpclient.feign;
+package com.dumas.scta.service.call.feign.consumer.retry.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

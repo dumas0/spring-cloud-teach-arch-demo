@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @desc TODO
  * @date 2022/05/04 01:07
  */
-@FeignClient(name = "fegin-provider")
+@FeignClient(name = "scta-service-call-feign-provider")
 public interface ProviderFeignClient {
 
     @GetMapping("/echo")

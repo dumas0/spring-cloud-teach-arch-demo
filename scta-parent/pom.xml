@@ -75,6 +75,10 @@
         <netflix-hystrix-dashboard.version>2.2.10.RELEASE</netflix-hystrix-dashboard.version>
         <netflix-turbine.version>2.2.10.RELEASE</netflix-turbine.version>
         <circuitbreaker-resilience4j.version>2.1.2</circuitbreaker-resilience4j.version>
+        <!-- feign-httpclient -->
+        <feign-httpclient.version>11.8</feign-httpclient.version>
+        <!-- feign-okhttp -->
+        <feign-okhttp.version>11.8</feign-okhttp.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -258,6 +262,17 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
                 <version>${circuitbreaker-resilience4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-httpclient</artifactId>
+                <version>${feign-httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-okhttp</artifactId>
+                <version>${feign-okhttp.version}</version>
             </dependency>
 
             <dependency>

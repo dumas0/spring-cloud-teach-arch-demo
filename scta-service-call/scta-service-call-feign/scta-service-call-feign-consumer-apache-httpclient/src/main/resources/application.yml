@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: scta-service-call-feign-consumer-apache-httpclient
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+feign:
+  # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
+  httpclient:
+    # 是否开启。默认为 true
+    enabled: true
+    # 最大连接数。默认为 200
+    max-connections: 200
+    # 每个路由的最大连接数。默认为 50。router = host + port
+    max-connections-per-route: 50
+
+server:
+  port: 28080

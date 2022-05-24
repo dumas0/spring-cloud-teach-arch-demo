@@ -23,5 +23,6 @@
     <modules>
         <module>scta-service-tolerance-hystrix-dubbo-api</module>
         <module>scta-service-tolerance-hystrix-dubbo-user-service</module>
+        <module>scta-service-tolerance-hystrix-dubbo-consumer</module>
     </modules>
 </project>

@@ -1,5 +1,6 @@
 package com.dumas.scta.service.call.feign.consumer.java.config.feign;
 
+import com.dumas.scta.service.call.feign.consumer.java.config.config.DemoProviderFeignClientConfiguration;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -9,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @desc TODO
  * @date 2022/05/04 01:07
  */
-@FeignClient(name = "scta-service-call-feign-provider")
+@FeignClient(name = "scta-service-call-feign-provider",
+        configuration = DemoProviderFeignClientConfiguration.class)
 public interface ProviderFeignClient {
 
     @GetMapping("/echo")

@@ -1,6 +1,6 @@
-package com.dumas.scta.service.call.feign.consumer.controller;
+package com.dumas.scta.service.call.feign.consumer.java.config.controller;
 
-import com.dumas.scta.service.call.feign.consumer.feign.ProviderFeignClient;
+import com.dumas.scta.service.call.feign.consumer.java.config.feign.ProviderFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

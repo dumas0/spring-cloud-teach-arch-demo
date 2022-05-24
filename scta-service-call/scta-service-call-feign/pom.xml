@@ -24,6 +24,7 @@
         <module>scta-service-call-feign-consumer</module>
         <module>scta-service-call-feign-provider</module>
         <module>scta-service-call-feign-consumer-custom-config</module>
+        <module>scta-service-call-feign-consumer-java-config</module>
     </modules>
 
 </project>

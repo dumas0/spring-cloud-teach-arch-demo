@@ -1,0 +1,14 @@
+server:
+  port: 28080
+
+spring:
+  application:
+    name: scta-service-call-feign-consumer-custom-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+logging:
+  level:
+    com.dumas.scta.service.call.feign.consumer.custom.config: DEBUG

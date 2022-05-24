@@ -6,27 +6,24 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>spring-cloud-teach-arch-demo</artifactId>
+        <artifactId>scta-service-call</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-service-call</artifactId>
+    <artifactId>scta-service-call-feign</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+
+    <name>scta-service-call-feign</name>
     <description>
-        服务调用
-        - SpringCloud Alibaba Dubbo 服务调用
-        - SpringCloud Netflix Ribbon 负载均衡
-        - SpringCloud Fegin 声明式服务调用
-        - SpringCloud gRPC 服务调用
+        SpringCloud Fegin 声明式服务调用
     </description>
 
     <modules>
-        <module>scta-service-call-dubbo</module>
-        <module>scta-service-call-ribbon</module>
-        <module>scta-service-call-feign</module>
-        <module>scta-service-call-grpc</module>
+        <module>scta-service-call-feign-consumer</module>
+        <module>scta-service-call-feign-provider</module>
+        <module>scta-service-call-feign-consumer-custom-config</module>
     </modules>
 
 </project>

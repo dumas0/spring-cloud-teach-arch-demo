@@ -6,18 +6,18 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>scta-service-tolerance-hystrix-dubbo</artifactId>
+        <artifactId>scta-service-call-feign</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-service-tolerance-hystrix-dubbo-user-service</artifactId>
+    <artifactId>scta-service-call-feign-consumer</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-service-tolerance-hystrix-dubbo-user-service</name>
+    <name>scta-service-call-feign-consumer</name>
     <description>
-        SpringCloud Netflix Hystrix 服务容错 用户服务
+        SpringCloud Feign 声明式服务调用 服务消费者
     </description>
 
     <dependencies>
@@ -30,13 +30,8 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-dubbo</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.dumas.scta</groupId>
-            <artifactId>scta-service-tolerance-hystrix-dubbo-api</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 

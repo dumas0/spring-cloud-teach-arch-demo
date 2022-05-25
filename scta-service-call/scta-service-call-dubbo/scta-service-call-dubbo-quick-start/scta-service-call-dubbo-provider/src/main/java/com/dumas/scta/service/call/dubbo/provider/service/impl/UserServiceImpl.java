@@ -5,8 +5,6 @@ import com.dumas.scta.service.call.dubbo.api.dto.UserAddDTO;
 import com.dumas.scta.service.call.dubbo.api.dto.UserDTO;
 import org.apache.dubbo.config.annotation.Service;
 
-import static org.apache.dubbo.rpc.model.ApplicationModel.getName;
-
 /**
  * @author dumas
  * @desc TODO:

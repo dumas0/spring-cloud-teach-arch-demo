@@ -6,22 +6,24 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>scta-service-call</artifactId>
+        <artifactId>scta-service-call-dubbo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-service-call-dubbo</artifactId>
+    <artifactId>scta-service-call-dubbo-quick-start</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-service-call-dubbo</name>
+    <name>scta-service-call-dubbo-quick-start</name>
     <description>
-        SpringCloud Alibaba Dubbo 服务调用
+        SpringCloud Alibaba Dubbo 服务调用 快速入门
     </description>
 
     <modules>
-        <module>scta-service-call-dubbo-quick-start</module>
+        <module>scta-service-call-dubbo-api</module>
+        <module>scta-service-call-dubbo-provider</module>
+        <module>scta-service-call-dubbo-consumer</module>
     </modules>
 
 </project>

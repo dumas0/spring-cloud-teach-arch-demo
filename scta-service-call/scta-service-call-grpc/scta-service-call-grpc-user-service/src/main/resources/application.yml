@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: scta-service-call-grpc-user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+grpc:
+  # gRPC 服务器配置，对应 GrpcServerProperties 配置类
+  server:
+    # gRPC Server 随机端口
+    port: 0
+
+# ${random.int[10000,19999]} 随机端口
+server:
+  port: 0

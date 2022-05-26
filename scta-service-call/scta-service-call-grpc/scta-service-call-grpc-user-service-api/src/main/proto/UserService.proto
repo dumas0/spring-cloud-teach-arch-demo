@@ -1,8 +1,9 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-
-package com.dumas.scta.service.call.grpc.user.service.api;
+option java_package = "com.dumas.scta.service.call.grpc.user.service.api";
+option java_outer_classname = "UserServiceProto";
+import "google/protobuf/any.proto";
 
 message UserGetRequest{
   int32 id = 1;

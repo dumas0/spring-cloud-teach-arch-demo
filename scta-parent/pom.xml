@@ -70,6 +70,8 @@
         <sentinel-datasource-nacos.version>1.8.4</sentinel-datasource-nacos.version>
         <!-- sentinel-datasource-apollo -->
         <sentinel-datasource-apollo.version>1.8.4</sentinel-datasource-apollo.version>
+        <!-- sentinel-apache-dubbo-adapter -->
+        <sentinel-apache-dubbo-adapter.version>1.8.4</sentinel-apache-dubbo-adapter.version>
         <!-- netflix-hystrix -->
         <netflix-hystrix.version>2.2.10.RELEASE</netflix-hystrix.version>
         <netflix-hystrix-dashboard.version>2.2.10.RELEASE</netflix-hystrix-dashboard.version>
@@ -86,6 +88,8 @@
         <validation-api.version>2.0.1.Final</validation-api.version>
         <hibernate-validator.version>8.0.0.Alpha3</hibernate-validator.version>
         <javax.el.version>3.0.1-b12</javax.el.version>
+        <!-- dubbo actuator -->
+        <dubbo-spring-boot-actuator.version>3.0.8</dubbo-spring-boot-actuator.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -250,6 +254,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.alibaba.csp</groupId>
+                <artifactId>sentinel-apache-dubbo-adapter</artifactId>
+                <version>${sentinel-apache-dubbo-adapter.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
                 <version>${netflix-hystrix.version}</version>
@@ -309,6 +319,12 @@
                 <groupId>org.glassfish</groupId>
                 <artifactId>javax.el</artifactId>
                 <version>${javax.el.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-actuator</artifactId>
+                <version>${dubbo-spring-boot-actuator.version}</version>
             </dependency>
 
             <dependency>

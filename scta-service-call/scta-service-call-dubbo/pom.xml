@@ -25,6 +25,7 @@
         <module>scta-service-call-dubbo-feign</module>
         <module>scta-service-call-dubbo-validation</module>
         <module>scta-service-call-dubbo-filter</module>
+        <module>scta-service-call-dubbo-sentinel</module>
     </modules>
 
 </project>

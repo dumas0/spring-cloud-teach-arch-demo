@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.controller;
+package com.dumas.scta.service.call.dubbo.quick.start.consumer.controller;
 
 import com.dumas.scta.service.call.dubbo.quick.start.api.api.UserService;
 import com.dumas.scta.service.call.dubbo.quick.start.api.dto.UserAddDTO;

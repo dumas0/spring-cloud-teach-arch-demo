@@ -90,6 +90,9 @@
         <javax.el.version>3.0.1-b12</javax.el.version>
         <!-- dubbo actuator -->
         <dubbo-spring-boot-actuator.version>3.0.8</dubbo-spring-boot-actuator.version>
+        <!-- grpc -->
+        <grpc-protobuf.version>1.46.0</grpc-protobuf.version>
+        <grpc-spring-boot-starter.version>2.13.1.RELEASE</grpc-spring-boot-starter.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -325,6 +328,27 @@
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-spring-boot-actuator</artifactId>
                 <version>${dubbo-spring-boot-actuator.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.grpc</groupId>
+                <artifactId>grpc-protobuf</artifactId>
+                <version>${grpc-protobuf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.grpc</groupId>
+                <artifactId>grpc-stub</artifactId>
+                <version>${grpc-protobuf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.devh</groupId>
+                <artifactId>grpc-server-spring-boot-starter</artifactId>
+                <version>${grpc-spring-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.devh</groupId>
+                <artifactId>grpc-client-spring-boot-starter</artifactId>
+                <version>${grpc-spring-boot-starter.version}</version>
             </dependency>
 
             <dependency>

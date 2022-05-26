@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.controller;
+package com.dumas.scta.service.call.dubbo.validation.consumer.controller;
 
 import com.dumas.scta.service.call.dubbo.validation.api.api.UserService;
 import com.dumas.scta.service.call.dubbo.validation.api.dto.UserAddDTO;

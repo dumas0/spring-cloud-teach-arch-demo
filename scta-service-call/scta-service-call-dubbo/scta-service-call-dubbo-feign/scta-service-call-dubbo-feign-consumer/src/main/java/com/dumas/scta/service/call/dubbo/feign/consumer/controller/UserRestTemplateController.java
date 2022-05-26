@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.controller;
+package com.dumas.scta.service.call.dubbo.feign.consumer.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.dumas.scta.service.call.dubbo.feign.api.dto.UserAddDTO;

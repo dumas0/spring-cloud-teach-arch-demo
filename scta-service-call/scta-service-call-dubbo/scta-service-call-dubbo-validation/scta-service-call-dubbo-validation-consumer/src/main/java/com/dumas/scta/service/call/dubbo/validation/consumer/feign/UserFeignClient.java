@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.feign;
+package com.dumas.scta.service.call.dubbo.validation.consumer.feign;
 
 import com.alibaba.cloud.dubbo.annotation.DubboTransported;
 import com.dumas.scta.service.call.dubbo.validation.api.dto.UserAddDTO;

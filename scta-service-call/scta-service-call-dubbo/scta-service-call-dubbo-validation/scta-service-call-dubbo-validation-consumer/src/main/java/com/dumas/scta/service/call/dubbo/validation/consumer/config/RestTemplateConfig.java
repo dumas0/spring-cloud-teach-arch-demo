@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.config;
+package com.dumas.scta.service.call.dubbo.validation.consumer.config;
 
 import com.alibaba.cloud.dubbo.annotation.DubboTransported;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

@@ -1,8 +1,8 @@
-package com.dumas.scta.service.call.dubbo.filter.provider.service;
+package com.dumas.scta.service.call.dubbo.validation.provider.service;
 
-import com.dumas.scta.service.call.dubbo.feign.api.api.UserService;
-import com.dumas.scta.service.call.dubbo.feign.api.dto.UserAddDTO;
-import com.dumas.scta.service.call.dubbo.feign.api.dto.UserDTO;
+import com.dumas.scta.service.call.dubbo.validation.api.api.UserService;
+import com.dumas.scta.service.call.dubbo.validation.api.dto.UserAddDTO;
+import com.dumas.scta.service.call.dubbo.validation.api.dto.UserDTO;
 import org.apache.dubbo.config.annotation.Service;
 
 /**
@@ -10,7 +10,7 @@ import org.apache.dubbo.config.annotation.Service;
  * @desc TODO:
  * @date 2022/05/03 10:58 PM
  */
-@Service(protocol = "dubbo", version = "1.0.0")
+@Service(protocol = "dubbo", version = "1.0.0", validation = "true")
 public class UserServiceImpl implements UserService {
     @Override
     public UserDTO get(Integer id) {

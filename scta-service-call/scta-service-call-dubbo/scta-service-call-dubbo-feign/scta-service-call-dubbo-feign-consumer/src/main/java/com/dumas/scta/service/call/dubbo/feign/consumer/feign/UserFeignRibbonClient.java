@@ -1,6 +1,5 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.feign;
+package com.dumas.scta.service.call.dubbo.feign.consumer.feign;
 
-import com.alibaba.cloud.dubbo.annotation.DubboTransported;
 import com.dumas.scta.service.call.dubbo.feign.api.dto.UserAddDTO;
 import com.dumas.scta.service.call.dubbo.feign.api.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -14,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @date 2022/05/26 10:56 AM
  */
 @FeignClient(name = "scta-service-call-dubbo-feign-provider")
-@DubboTransported(protocol = "dubbo")
-//@DubboTransported(protocol = "rest")
-public interface UserFeignClient {
+public interface UserFeignRibbonClient {
 
     /**
      * 根据指定用户编号，获得用户信息

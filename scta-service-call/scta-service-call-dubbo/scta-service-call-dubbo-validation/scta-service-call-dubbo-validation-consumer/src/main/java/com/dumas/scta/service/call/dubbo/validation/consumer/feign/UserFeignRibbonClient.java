@@ -1,7 +1,7 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.feign;
+package com.dumas.scta.service.call.dubbo.validation.consumer.feign;
 
-import com.dumas.scta.service.call.dubbo.feign.api.dto.UserAddDTO;
-import com.dumas.scta.service.call.dubbo.feign.api.dto.UserDTO;
+import com.dumas.scta.service.call.dubbo.validation.api.dto.UserAddDTO;
+import com.dumas.scta.service.call.dubbo.validation.api.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author dumas
  * @date 2022/05/26 10:56 AM
  */
-@FeignClient(name = "scta-service-call-dubbo-feign-provider")
+@FeignClient(name = "scta-service-call-dubbo-validation-provider")
 public interface UserFeignRibbonClient {
 
     /**

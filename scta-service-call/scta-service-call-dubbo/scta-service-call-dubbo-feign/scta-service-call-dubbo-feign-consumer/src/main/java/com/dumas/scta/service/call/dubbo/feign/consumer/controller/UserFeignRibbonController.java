@@ -1,8 +1,8 @@
-package com.dumas.scta.service.call.dubbo.filter.consumer.controller;
+package com.dumas.scta.service.call.dubbo.feign.consumer.controller;
 
 import com.dumas.scta.service.call.dubbo.feign.api.dto.UserAddDTO;
 import com.dumas.scta.service.call.dubbo.feign.api.dto.UserDTO;
-import com.dumas.scta.service.call.dubbo.filter.consumer.feign.UserFeignRibbonClient;
+import com.dumas.scta.service.call.dubbo.feign.consumer.feign.UserFeignRibbonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

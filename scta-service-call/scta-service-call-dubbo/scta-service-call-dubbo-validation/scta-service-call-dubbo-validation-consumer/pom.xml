@@ -6,16 +6,16 @@
 
     <parent>
         <groupId>com.dumas.scta</groupId>
-        <artifactId>scta-service-call-dubbo-feign</artifactId>
+        <artifactId>scta-service-call-dubbo-validation</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-service-call-dubbo-feign-consumer</artifactId>
+    <artifactId>scta-service-call-dubbo-validation-consumer</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-service-call-dubbo-feign-consumer</name>
+    <name>scta-service-call-dubbo-validation-consumer</name>
     <description>
         SpringCloud Alibaba Dubbo 服务调用 服务消费者
     </description>
@@ -35,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>com.dumas.scta</groupId>
-            <artifactId>scta-service-call-dubbo-feign-api</artifactId>
+            <artifactId>scta-service-call-dubbo-validation-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>

@@ -79,6 +79,9 @@
         <feign-httpclient.version>11.8</feign-httpclient.version>
         <!-- feign-okhttp -->
         <feign-okhttp.version>11.8</feign-okhttp.version>
+        <!-- 引入 Dubbo Rest 协议相关的依赖 -->
+        <resteasy-netty4.version>6.1.0.Beta2</resteasy-netty4.version>
+        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <!-- tools -->
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
@@ -273,6 +276,18 @@
                 <groupId>io.github.openfeign</groupId>
                 <artifactId>feign-okhttp</artifactId>
                 <version>${feign-okhttp.version}</version>
+            </dependency>
+
+            <!-- 引入 Dubbo Rest 协议相关的依赖 -->
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-netty4</artifactId>
+                <version>${resteasy-netty4.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet-api.version}</version>
             </dependency>
 
             <dependency>

@@ -11,19 +11,21 @@
     </parent>
 
     <groupId>com.dumas.scta</groupId>
-    <artifactId>scta-service-call-dubbo-quick-start</artifactId>
+    <artifactId>scta-service-call-dubbo-feign</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>scta-service-call-dubbo-quick-start</name>
+    <name>scta-service-call-dubbo-feign</name>
     <description>
-        SpringCloud Alibaba Dubbo 服务调用 快速入门
+        SpringCloud Alibaba Dubbo 服务调用 Feign 调用 Dubbo 服务
     </description>
 
     <modules>
-        <module>scta-service-call-dubbo-quick-start-api</module>
-        <module>scta-service-call-dubbo-quick-start-provider</module>
-        <module>scta-service-call-dubbo-quick-start-consumer</module>
+        <module>scta-service-call-dubbo-feign-api</module>
+        <module>scta-service-call-dubbo-feign-provider</module>
+        <module>scta-service-call-dubbo-feign-provider-rest</module>
+        <module>scta-service-call-dubbo-feign-provider-springmvc</module>
+        <module>scta-service-call-dubbo-feign-consumer</module>
     </modules>
 
 </project>

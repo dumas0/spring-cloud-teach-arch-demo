@@ -22,6 +22,7 @@
 
     <modules>
         <module>scta-service-call-dubbo-quick-start</module>
+        <module>scta-service-call-dubbo-feign</module>
     </modules>
 
 </project>

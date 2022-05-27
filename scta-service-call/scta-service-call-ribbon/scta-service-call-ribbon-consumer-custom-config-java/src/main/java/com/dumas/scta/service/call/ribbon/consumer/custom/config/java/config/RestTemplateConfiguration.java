@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.ribbon.consumer.config;
+package com.dumas.scta.service.call.ribbon.consumer.custom.config.yml.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

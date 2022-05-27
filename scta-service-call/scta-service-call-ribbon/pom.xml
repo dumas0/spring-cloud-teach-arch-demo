@@ -25,5 +25,6 @@
         <module>scta-service-call-ribbon-provider</module>
         <module>scta-service-call-ribbon-consumer-custom-config-yml</module>
         <module>scta-service-call-ribbon-consumer-custom-config-java</module>
+        <module>scta-service-call-ribbon-consumer-custom-rule</module>
     </modules>
 </project>

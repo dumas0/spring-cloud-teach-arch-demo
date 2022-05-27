@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: scta-service-call-ribbon-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+server:
+  port: 28080
+
+scta-service-call-ribbon-consumer-custom-rule:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule

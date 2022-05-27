@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.ribbon.consumer.custom.config.yml.controller;
+package com.dumas.scta.service.call.ribbon.consumer.custom.rule.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

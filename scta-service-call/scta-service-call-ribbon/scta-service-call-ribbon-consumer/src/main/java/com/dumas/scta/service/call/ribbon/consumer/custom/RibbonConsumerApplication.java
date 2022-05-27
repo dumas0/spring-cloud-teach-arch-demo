@@ -1,4 +1,4 @@
-package com.dumas.scta.service.call.ribbon.consumer;
+package com.dumas.scta.service.call.ribbon.consumer.custom;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

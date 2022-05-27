@@ -27,5 +27,7 @@
         <module>scta-service-call-ribbon-consumer-custom-config-java</module>
         <module>scta-service-call-ribbon-consumer-custom-rule</module>
         <module>scta-service-call-ribbon-consumer-eager</module>
+        <module>scta-service-call-ribbon-consumer-client</module>
+        <module>scta-service-call-ribbon-consumer-retry</module>
     </modules>
 </project>
